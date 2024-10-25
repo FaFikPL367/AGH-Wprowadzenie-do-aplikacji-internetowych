@@ -1,0 +1,126 @@
+:root {
+    --header-color: #3B1E54;
+    --font-header-color: #EEEEEE;
+    --main-color: #D4BEE4;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    overflow: hidden;
+    font-family: "Roboto Mono", sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main {
+    background-color: var(--main-color);
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.title_section {
+    font-size: 5em;
+    font-weight: 700;
+    padding: 2em;
+}
+
+.title {
+    border: 15px solid var(--header-color);
+    border-radius: 25px;
+    padding: 45px;
+    box-sizing: border-box;
+    color: var(--header-color);
+}
+
+.categories {
+    font-size: 3.5em;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.categories_name {
+    text-decoration: none;
+    color: var(--header-color);
+    font-weight: 600;
+}
+
+.header {
+    font-size: 2.5em;
+    background-color: var(--header-color);
+
+    width: 100%;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.anchor_to_subpages {
+    text-decoration: none;
+    color: var(--font-header-color);
+    text-transform: uppercase;
+
+    border: 2px solid var(--font-header-color);
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.anchor_to_subpages:hover {
+    background-color: var(--font-header-color);
+    color: var(--header-color);
+    transition: all 0.2s ease-in-out;
+}
+
