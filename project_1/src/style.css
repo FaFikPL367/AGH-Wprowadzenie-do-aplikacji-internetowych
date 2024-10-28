@@ -1,0 +1,349 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 80px;
+}
+
+#side-logo {
+  height: 4rem;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar li {
+  padding: 0px 20px;
+}
+
+.navbar-items {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.navbar-items:hover {
+  font-size: 2rem;
+}
+
+#hero-car {
+  width: 100%;
+  height: 90vh;
+  background-color: black;
+  background-image: url("../image/Gear-Banner-Gemera.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#top-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+#top-products-title {
+  color: white;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#top-products-container-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.top-products-card {
+  width: 30%;
+  background-color: yellow;
+  border-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#top-products-container-card > h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.top-products-card > h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0;
+  font-weight: 700;
+  border: 4px solid white;
+  border-radius: 3rem;
+  padding: 0.5rem 1rem;
+}
+
+.top-products-card > img {
+  width: 90%;
+  border-radius: 50px;
+  margin-bottom: 2rem;
+}
+
+.vertical-line {
+  width: 95%;
+  border-bottom: 2px solid black;
+}
+
+.top-products-card-information {
+  height: 100%;
+  font-size: 1.5rem;
+  line-height: 5rem;
+}
+
+.top-products-card-information span {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.see-more {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 5px solid black;
+  background-color: white;
+  padding: 0.5rem;
+  color: black;
+  border-radius: 25px;
+}
+
+.see-more:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+#owner-page {
+  background-color: white;
+  width: 100%;
+  margin: 4rem 0;
+
+  display: flex;
+}
+
+#owner-side {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#owner-image {
+  width: 80%;
+  height: 30%;
+}
+
+#owner-full-information {
+  width: 70%;
+}
+
+#owner-image img {
+  width: 100%;
+  border: 5px solid black;
+}
+
+#owner-short-information {
+  width: 80%;
+  height: 60%;
+  border: 5px solid black;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#owner-short-information > h2 {
+  padding-bottom: 4rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.category-information {
+  font-weight: 600;
+}
+
+#owner-full-information > article {
+  border: 5px solid black;
+  width: 95%;
+  height: 95%;
+  margin: 1rem;
+  padding: 0 1rem;
+}
+
+#owner-full-information > article > h3 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+#owner-full-information > article > ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer > h2 {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  font-weight: 2rem;
+}
