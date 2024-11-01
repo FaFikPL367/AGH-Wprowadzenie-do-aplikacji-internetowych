@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 20px 80px;
+  }
+  
+#side-logo {
+    height: 4rem;
+}
+  
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+#navbar li {
+    padding: 0px 20px;
+}
+  
+.navbar-items {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    transition: 0.3s;
+}
+  
+.navbar-items:hover {
+    font-size: 2rem;
+}
+
+#footer > h2 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin: 3rem 0;
+    font-weight: 2rem;
+}
+
+.container {
+    height: 75vh;
+    background-color: white;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-header {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 6px;
+    margin: 2rem 0;
+}
+
+.contact-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.contact-form {
+  margin-right: 3rem;
+}
+
+.form-input {
+  display: block;
+  width: 500px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  resize: none;
+}
+
+.form-button {
+  border: 0;
+  background-color: white;
+}
+
+.form-button img {
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+
+.contact-list > li {
+  line-height: 4;
+}
+
+.side-contact {
+  margin-bottom: 5rem;
+}
+
+.contact-list {
+  font-size: 1.5rem;
+}
+
+.place {
+  margin-left: 2rem;
+}
+
+.gmail {
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.gmail > a {
+  text-decoration: none;
+  color: black;
+}
+
+.form-button img:hover {
+  height: 70px;
+  transition: height 0.3s ease-in-out;
+}
+
+
+
