@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="timecontainer">
+        <h1 id="title">Stopwatch</h1>
+
+        <div id="display-timer">
+            0s
+        </div>
+        <div id="button-timer">
+            <button id="btn-start" class="btn" onclick="start()">Start</button>
+            <button id="btn-stop" class="btn" onclick="stop()">Stop</button>
+            <button id="btn-reset" class="btn" onclick="reset()">Reset</button>
+            <button id="btn-save" class="btn" onclick="save()">Save</button>
+        </div>
+        <div id="save-place"></div>
+    </section>
+
+
+    <!-- Ładowanie skryptu na stronie-->
+    <script src="index.js"></script>
+</body>
+</html>

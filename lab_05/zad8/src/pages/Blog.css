@@ -1,0 +1,30 @@
+.Blog {
+    text-align: center;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.Blog > h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: lightblue;
+}
+
+
+.Blog > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Blog > ul > li {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+}
+
+.Blog > ul > li > a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+}

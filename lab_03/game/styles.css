@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#myCanvas {
+    display: block;
+    margin: 0 auto;
+    color: white;
+}
+
+#restartButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Ukrywaj przycisk do czasu zakończenia gry */
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#restartButton:hover {
+    background-color: #D40000;
+}

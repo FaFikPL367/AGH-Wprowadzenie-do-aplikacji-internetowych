@@ -1,0 +1,23 @@
+.Home {
+    text-align: center;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.Home > h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: lightblue;
+}
+
+.Home > p {
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.Home > a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+}

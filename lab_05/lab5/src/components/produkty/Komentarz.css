@@ -1,0 +1,19 @@
+.Komentarz {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: 0.5rem;
+}
+
+.Komentarz > div {
+    margin: 0 1rem;
+}
+
+.Komentarz-body {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}

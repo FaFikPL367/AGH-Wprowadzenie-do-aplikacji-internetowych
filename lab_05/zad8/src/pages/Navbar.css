@@ -1,0 +1,29 @@
+.Navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+.Navbar > a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0.3rem;
+    transition: background-color 0.3s ease;
+}
+
+.Navbar a:hover {
+    background-color: #575757; /* Tło po najechaniu */
+    border-radius: 5px;
+}

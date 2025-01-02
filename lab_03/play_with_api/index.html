@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Products</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <input type="text" placeholder="Search products..." id="search-input" oninput="updateDisplay()">
+        <select name="" id="sorting-options" onchange="updateDisplay()">
+            <option value="original">Original Order</option>
+            <option value="asc">Sort Ascending</option>
+            <option value="dsc">Sort Descending</option>
+        </select>
+    </header>
+
+    <section id="container">
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
